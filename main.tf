@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source = "./ec2-instance"
+  source = "modules/"
 
   name                 = "my-ec2-instance"
   ami                  = var.ami_id
